@@ -6,7 +6,7 @@ def hello_world():
   return 'Hello, VSTS!'
 
 @app.route('/branch')
-def hello_world():
+def view_branch():
   return 'Found branch!'
 
 if __name__ == '__main__':
