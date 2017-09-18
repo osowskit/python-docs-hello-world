@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-  return 'Hello, VSTS!'
+  return 'Triggered from VSTS!'
 
 @app.route('/branch')
 def view_branch():
