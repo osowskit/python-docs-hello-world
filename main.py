@@ -5,5 +5,9 @@ app = Flask(__name__)
 def hello_world():
   return 'Hello, VSTS!'
 
+@app.route('/branch')
+def hello_world():
+  return 'Found branch!'
+
 if __name__ == '__main__':
   app.run()
